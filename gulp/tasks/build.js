@@ -19,7 +19,7 @@ gulp.task('previewDist', function() {
 });
 
 
-gulp.task('deleteDistFolder', ['icons'], function() {
+gulp.task('deleteDistFolder', ['icons'],  function() {
     return del("./docs");
 
 });
@@ -52,8 +52,9 @@ gulp.task('optimizeImages', ['deleteDistFolder'] , function() {
         .pipe(gulp.dest("./docs/assets/images"));
 });
 
-gulp.task('useminTrigger', ['deleteDistFolder'], function() {
-    gulp.task("usemin");
+
+gulp.task('useminTrigger', ['deleteDistFolder'] , function() {
+    gulp.start("usemin");
 
 });
 
