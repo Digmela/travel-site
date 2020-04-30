@@ -7,7 +7,7 @@
     "gulp-rev": "^9.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-usemin": "^0.3.29",
-    "jquery": "^2.2.4",
+    "jquery": "^3.5.0",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^5.1.0",
     "normalize.css": "^4.1.1",
